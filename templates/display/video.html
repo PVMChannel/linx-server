@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 
 {% block head %}
+<meta property="og:type" content="article">
 <meta property="og:video" content="{{ siteurl }}{{ sitepath }}{{ selifpath }}{{ filename }}" />
+<meta property="og:title" content="{{ filename }}">
 {% endblock %}
 
 {% block main %}
